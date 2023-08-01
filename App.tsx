@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react'
 
+
 import 'react-native-gesture-handler';
 import { MainStack } from './src/navigation/MainStackNav';
 import { PermissionsProvider } from './src/context/PermissionsContext';

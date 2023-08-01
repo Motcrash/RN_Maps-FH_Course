@@ -17,7 +17,7 @@ export const PermissionsScreen = () => {
                 onPress={ askLocationPermission }
             />
 
-            <Text>
+            <Text style= { stylesScreen.subtitle }>
                 { JSON.stringify(permissions, null, 5 )}
             </Text>
        </View>
@@ -32,7 +32,13 @@ const stylesScreen = StyleSheet.create({
     },
     title: {
         width: 200,
-        fontSize: 18,
-        textAlign: 'center'
-    }
+        fontSize: 20,
+        textAlign: 'center',
+        marginBottom: 20
+    },
+    subtitle: {
+        width: 200,
+        fontSize: 16,
+        marginTop: 20
+    },
 });
